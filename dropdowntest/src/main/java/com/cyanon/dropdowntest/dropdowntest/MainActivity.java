@@ -107,7 +107,7 @@ public class MainActivity extends Activity implements ffbFragmentFront.OnFragmen
             JSONObject jsonResponse = null;
 
             try {
-                URL jsonURL = new URL("http://212.56.88.108:47047/sony/test_json.php");
+                URL jsonURL = new URL("http://212.56.88.108:47047/test_json.php");
                 HttpURLConnection connection = (HttpURLConnection)jsonURL.openConnection();
                 connection.connect();
                 if (connection.getResponseCode() == HttpURLConnection.HTTP_OK)

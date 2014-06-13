@@ -1,0 +1,40 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="10px"
+    android:paddingRight="10px"
+    android:paddingTop="5px"
+    android:paddingBottom="5px">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="310sp"
+        android:background="@drawable/big_card">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Sample text"
+            android:id="@+id/textView"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:id="@+id/imageView"
+            android:src="@drawable/flip_card"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="10px"
+            android:layout_margin="10px"
+            android:maxWidth="10px"
+            android:maxHeight="10px" />
+
+    </RelativeLayout>
+
+</LinearLayout>

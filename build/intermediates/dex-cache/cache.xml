@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\benpl_000\CyborgsAnonymous\DropdownTest\dropdowntest\build\intermediates\pre-dexed\debug\support-v4-19.0.1-e3097ababe2f2fdff4e37ee36a06661f6b885f60.jar"
+        jar="C:\Users\benpl_000\Downloads\Android SDK\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+
+</pre-dex-items>

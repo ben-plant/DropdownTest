@@ -1,0 +1,108 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="10px"
+    android:paddingRight="10px"
+    android:paddingTop="5px"
+    android:paddingBottom="5px">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="5px"
+            android:background="@drawable/big_card"
+            android:columnCount="4"
+            android:rowCount="9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:id="@+id/featureID"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:layout_margin="10px"
+                android:fontFamily="sans-serif-thin"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:layout_rowSpan="1"
+                android:layout_columnSpan="1" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Function"
+                android:id="@+id/textView"
+                android:layout_column="0"
+                android:layout_row="4"
+                android:layout_margin="10px"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_row="5"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Benefit"
+                android:id="@+id/textView2"
+                android:layout_column="0"
+                android:layout_row="6"
+                android:layout_margin="10px"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2"
+                android:layout_row="7"
+                android:layout_column="0" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Am I Correct?"
+                android:id="@+id/button"
+                android:layout_row="8"
+                android:fontFamily="sans-serif-thin"
+                android:layout_column="0"
+                android:background="@drawable/confirm_button"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:id="@+id/imageView"
+            android:src="@drawable/flip_card"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="10px"
+            android:layout_margin="10px"
+            android:maxWidth="10px"
+            android:maxHeight="10px" />
+
+    </RelativeLayout>
+
+</LinearLayout>
